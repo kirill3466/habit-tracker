@@ -201,8 +201,6 @@ func generateMigrationTemplate(migrationName string) string {
 	template := fmt.Sprintf(`-- Migration: %s
 -- Created at: %s
 
--- Напишите здесь ваш SQL код
--- Пример:
 -- CREATE TABLE IF NOT EXISTS table_name (
 --     id BIGSERIAL PRIMARY KEY,
 --     name VARCHAR(255) NOT NULL,

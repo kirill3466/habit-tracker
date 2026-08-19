@@ -8,7 +8,7 @@ type Habit struct {
 	Description string    `json:"description"`
 	Color       string    `json:"color"`
 	Icon        string    `json:"icon"`
-	Frequency   int       `json:"frequency"`
+	Frequency   string    `json:"frequency"`
 	TargetDays  int       `json:"target_days"`
 	IsActive    bool      `json:"is_active"`
 	CreatedAt   time.Time `json:"created_at"`

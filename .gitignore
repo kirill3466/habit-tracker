@@ -25,6 +25,7 @@ go.work
 # IDE
 .idea/
 .vscode/
+.history/
 *.swp
 *.swo
 *~
@@ -38,4 +39,4 @@ build/
 tmp/
 
 # Migrations
-migrations/
+# migrations/
